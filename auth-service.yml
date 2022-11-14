@@ -3,11 +3,11 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:postgresql://containers-us-west-117.railway.app:6553/railway
+    url: jdbc:postgresql:postgresql://containers-us-west-113.railway.app:6613/railway
 
     # jdbc:postgresql://localhost:5432/bioskop_db
     username: postgres
-    password: ansHcBEyN3Vkh9QPBT6c
+    password: AreLJxqASMsvIf3xhbN4
     driver-class-name: org.postgresql.Driver
   server:
     port: 8082
